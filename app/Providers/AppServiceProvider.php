@@ -19,6 +19,23 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $this->ensureStorageDirectoriesExist();
+    }
+
+    private function ensureStorageDirectoriesExist(): void
+    {
+        $directories = [
+            storage_path('framework/views'),
+            storage_path('framework/cache/data'),
+            storage_path('framework/sessions'),
+            storage_path('framework/testing'),
+            storage_path('logs'),
+        ];
+
+        foreach ($directories as $directory) {
+            if (! is_dir($directory)) {
+                mkdir($directory, 0755, true);
+            }
+        }
     }
 }
