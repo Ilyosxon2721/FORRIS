@@ -111,8 +111,8 @@ function App() {
           </h1>
 
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Единая экосистема продуктов для бизнеса, образования и технологий.
-            Создаём инструменты, которые меняют правила игры.
+            Интернет-магазин, маркетплейсы, IT-продукты и бизнес-решения —
+            всё под одним брендом. От e-commerce до Digital Signage.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -133,10 +133,10 @@ function App() {
           {/* Stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-20 pt-10 border-t border-white/5">
             {[
-              { value: '10+', label: 'Продуктов' },
-              { value: '50K+', label: 'Пользователей' },
-              { value: '99.9%', label: 'Uptime' },
-              { value: '24/7', label: 'Поддержка' },
+              { value: '7+', label: 'Продуктов' },
+              { value: 'E-com', label: 'Маркетплейсы' },
+              { value: 'HoReCa', label: 'POS-системы' },
+              { value: 'SaaS', label: 'IT-решения' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-3xl sm:text-4xl font-bold text-white">
@@ -168,53 +168,60 @@ function App() {
               Экосистема FORRIS
             </h2>
             <p className="text-gray-400 mt-4 max-w-xl mx-auto">
-              Полный набор цифровых инструментов, интегрированных в единую платформу
+              От интернет-магазина и маркетплейсов до POS-систем, фулфилмента и Digital Signage
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {[
               {
                 icon: '🛒',
-                name: 'FORRIS Market',
-                desc: 'Современный маркетплейс с AI-рекомендациями и быстрой доставкой',
+                name: 'FORRIS Store',
+                desc: 'Собственный интернет-магазин бренда FORRIS — широкий ассортимент товаров с быстрой доставкой и удобным оформлением заказов',
                 color: 'from-emerald-500/20 to-emerald-500/5',
                 border: 'border-emerald-500/20',
               },
               {
-                icon: '📚',
-                name: 'FORRIS Academy',
-                desc: 'Образовательная платформа с интерактивными курсами и менторством',
+                icon: '🏪',
+                name: 'FORRIS на маркетплейсах',
+                desc: 'Официальные магазины бренда FORRIS на ведущих маркетплейсах — покупайте там, где вам удобно',
                 color: 'from-blue-500/20 to-blue-500/5',
                 border: 'border-blue-500/20',
               },
               {
-                icon: '💼',
-                name: 'FORRIS Business',
-                desc: 'CRM и ERP решения для управления бизнес-процессами',
+                icon: '🧠',
+                name: 'SellerMind',
+                desc: 'Умная платформа для продавцов — аналитика продаж, управление товарами и автоматизация работы на маркетплейсах',
                 color: 'from-violet-500/20 to-violet-500/5',
                 border: 'border-violet-500/20',
               },
               {
-                icon: '☁️',
-                name: 'FORRIS Cloud',
-                desc: 'Облачная инфраструктура с высокой производительностью и надёжностью',
-                color: 'from-cyan-500/20 to-cyan-500/5',
-                border: 'border-cyan-500/20',
-              },
-              {
-                icon: '🔐',
-                name: 'FORRIS ID',
-                desc: 'Единая система аутентификации и управления доступом',
+                icon: '📦',
+                name: 'Risment',
+                desc: 'Фулфилмент-сервис для селлеров — хранение, упаковка и отправка товаров. Полный цикл логистики под ключ',
                 color: 'from-amber-500/20 to-amber-500/5',
                 border: 'border-amber-500/20',
               },
               {
-                icon: '💬',
-                name: 'FORRIS Connect',
-                desc: 'Платформа для коммуникаций: мессенджер, видеозвонки, коллаборация',
+                icon: '🍽️',
+                name: 'RestoPos',
+                desc: 'POS-система для ресторанов и кафе — приём заказов, управление меню, аналитика и контроль кухни в реальном времени',
                 color: 'from-rose-500/20 to-rose-500/5',
                 border: 'border-rose-500/20',
+              },
+              {
+                icon: '💳',
+                name: 'Paynes',
+                desc: 'Кассовая система нового поколения — быстрые расчёты, фискализация, интеграция с банками и учёт продаж',
+                color: 'from-cyan-500/20 to-cyan-500/5',
+                border: 'border-cyan-500/20',
+              },
+              {
+                icon: '📺',
+                name: 'SILON',
+                desc: 'Система управления медиаконтентом для экранов. Централизованное управление и трансляция контента на мониторах по всему миру',
+                color: 'from-purple-500/20 to-purple-500/5',
+                border: 'border-purple-500/20',
               },
             ].map((product) => (
               <div
@@ -264,26 +271,8 @@ function App() {
                     <path d="M13 10V3L4 14h7v7l9-11h-7z" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 ),
-                title: 'Молниеносная скорость',
-                desc: 'Оптимизированная инфраструктура обеспечивает мгновенный отклик и плавную работу всех сервисов',
-              },
-              {
-                icon: (
-                  <svg width="28" height="28" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                ),
-                title: 'Безопасность',
-                desc: 'Шифрование данных, двухфакторная аутентификация и соответствие мировым стандартам безопасности',
-              },
-              {
-                icon: (
-                  <svg width="28" height="28" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                ),
-                title: 'Масштабируемость',
-                desc: 'Решения растут вместе с вашим бизнесом — от стартапа до корпорации',
+                title: 'Полная экосистема',
+                desc: 'Интернет-магазин, маркетплейсы, фулфилмент, POS и аналитика — всё работает вместе под брендом FORRIS',
               },
               {
                 icon: (
@@ -291,8 +280,26 @@ function App() {
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 ),
-                title: 'Интеграция',
-                desc: 'Все продукты FORRIS работают как единое целое с бесшовной интеграцией данных',
+                title: 'Мультиканальные продажи',
+                desc: 'Продаём через собственный магазин и все ведущие маркетплейсы — максимальный охват аудитории',
+              },
+              {
+                icon: (
+                  <svg width="28" height="28" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                ),
+                title: 'Инструменты для селлеров',
+                desc: 'SellerMind и Risment помогают продавцам масштабировать бизнес — от аналитики до полного фулфилмента',
+              },
+              {
+                icon: (
+                  <svg width="28" height="28" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                ),
+                title: 'HoReCa решения',
+                desc: 'RestoPos и Paynes автоматизируют работу ресторанов и кафе — от приёма заказов до фискализации',
               },
               {
                 icon: (
@@ -300,8 +307,8 @@ function App() {
                     <path d="M12 6V2m0 4a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V9m6 3H6m12 0a2 2 0 100 4m0-4a2 2 0 110 4m0 0v2m0-6V9" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 ),
-                title: 'AI-технологии',
-                desc: 'Искусственный интеллект встроен в каждый продукт для умной автоматизации',
+                title: 'Digital Signage',
+                desc: 'SILON позволяет централизованно управлять и транслировать медиаконтент на экранах в любой точке мира',
               },
               {
                 icon: (
@@ -309,8 +316,8 @@ function App() {
                     <path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 ),
-                title: 'Глобальный охват',
-                desc: 'Мультиязычная поддержка и серверы по всему миру для минимальной задержки',
+                title: 'Собственные технологии',
+                desc: 'Все продукты разработаны внутри компании — полный контроль качества, быстрые обновления и развитие',
               },
             ].map((feature) => (
               <div key={feature.title} className="group p-6">
@@ -355,10 +362,11 @@ function App() {
                   которые вдохновляют
                 </h2>
                 <p className="text-gray-400 mt-6 text-lg leading-relaxed max-w-2xl">
-                  FORRIS — это команда инженеров, дизайнеров и визионеров, объединённых
-                  одной целью: сделать цифровые технологии доступными, красивыми и
-                  по-настоящему полезными. Наша экосистема охватывает все сферы
-                  цифровой жизни — от образования до бизнеса.
+                  FORRIS — это экосистема, объединяющая e-commerce, IT-продукты
+                  и бизнес-решения. Мы развиваем собственный интернет-магазин,
+                  работаем на крупнейших маркетплейсах и создаём технологии для
+                  селлеров, ресторанов и бизнеса — от аналитики продаж до
+                  управления медиаконтентом на экранах по всему миру.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mt-10">
@@ -446,17 +454,19 @@ function App() {
                 <span className="text-lg font-bold text-white">FORRIS</span>
               </div>
               <p className="text-sm text-gray-500 leading-relaxed">
-                Экосистема цифровых решений для бизнеса, образования и технологий.
+                E-commerce, IT-продукты и бизнес-решения под одним брендом.
               </p>
             </div>
 
             <div>
               <h4 className="text-sm font-semibold text-white mb-4">Продукты</h4>
               <div className="space-y-2.5">
-                <a href="#" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">FORRIS Market</a>
-                <a href="#" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">FORRIS Academy</a>
-                <a href="#" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">FORRIS Business</a>
-                <a href="#" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">FORRIS Cloud</a>
+                <a href="#products" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">FORRIS Store</a>
+                <a href="#products" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">SellerMind</a>
+                <a href="#products" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Risment</a>
+                <a href="#products" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">RestoPos</a>
+                <a href="#products" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Paynes</a>
+                <a href="#products" className="block text-sm text-gray-500 hover:text-gray-300 transition-colors">SILON</a>
               </div>
             </div>
 
