@@ -1,0 +1,10 @@
+{
+  "name": "forris/landing",
+  "description": "FORRIS ecosystem landing page",
+  "type": "project",
+  "require": {},
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
