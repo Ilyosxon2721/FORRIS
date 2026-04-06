@@ -6,7 +6,7 @@
     <meta name="description" content="FORRIS — экосистема e-commerce, IT-продуктов и бизнес-решений. SellerMind, Risment, ForrisPos, SILON, FORRIS Travel.">
     <title>FORRIS — Экосистема цифровых решений</title>
 
-    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link rel="icon" type="image/svg+xml" href="/images/logo-icon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
     <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
             <a href="#" class="flex items-center gap-3">
-                <img src="/images/logo.png" alt="FORRIS" class="h-8 brightness-0 invert">
+                <img src="/images/logo.svg" alt="FORRIS" class="h-8">
             </a>
 
             <div class="hidden md:flex items-center gap-8">
@@ -58,7 +58,7 @@
         <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 60px 60px;"></div>
 
         <div class="relative z-10 max-w-5xl mx-auto px-6 text-center pt-20">
-            <img src="/images/logo.png" alt="FORRIS" class="h-14 sm:h-16 mx-auto mb-10 brightness-0 invert">
+            <img src="/images/logo.svg" alt="FORRIS" class="h-12 sm:h-14 mx-auto mb-10">
 
             <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-white leading-[1.1] tracking-tight mb-6">
                 Экосистема цифровых
@@ -402,7 +402,7 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div>
-                    <img src="/images/logo.png" alt="FORRIS" class="h-7 brightness-0 invert mb-4">
+                    <img src="/images/logo.svg" alt="FORRIS" class="h-7 mb-4">
                     <p class="text-sm text-gray-500 leading-relaxed">
                         Экосистема e-commerce, IT-продуктов и бизнес-решений. Сделано в Узбекистане.
                     </p>
