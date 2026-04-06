@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="FORRIS — экосистема e-commerce, IT-продуктов и бизнес-решений">
+    <meta name="description" content="FORRIS — экосистема e-commerce, IT-продуктов и бизнес-решений. SellerMind, Risment, ForrisPos, SILON, FORRIS Travel.">
     <title>FORRIS — Экосистема цифровых решений</title>
 
+    <link rel="icon" type="image/png" href="/images/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -17,19 +18,15 @@
     {{-- Navigation --}}
     <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-            <a href="#" class="flex items-center gap-2">
-                <div class="w-9 h-9 bg-gradient-to-br from-brand-gold to-amber-700 rounded-lg flex items-center justify-center">
-                    <span class="text-white font-extrabold text-lg">F</span>
-                </div>
-                <span class="text-xl font-bold text-white tracking-tight">FORRIS</span>
+            <a href="#" class="flex items-center gap-3">
+                <img src="/images/logo.png" alt="FORRIS" class="h-8 brightness-0 invert">
             </a>
 
             <div class="hidden md:flex items-center gap-8">
+                <a href="#ecosystem" class="text-sm text-gray-400 hover:text-white transition-colors">Экосистема</a>
                 <a href="#products" class="text-sm text-gray-400 hover:text-white transition-colors">Продукты</a>
-                <a href="#features" class="text-sm text-gray-400 hover:text-white transition-colors">Возможности</a>
                 <a href="#about" class="text-sm text-gray-400 hover:text-white transition-colors">О нас</a>
                 <a href="#contact" class="text-sm text-gray-400 hover:text-white transition-colors">Контакты</a>
-                <a href="#contact" class="text-sm font-medium px-5 py-2 rounded-lg bg-white text-dark-900 hover:bg-gray-200 transition-colors">Начать</a>
             </div>
 
             <button id="mobile-toggle" class="md:hidden text-white cursor-pointer" aria-label="Menu">
@@ -43,164 +40,292 @@
         </div>
 
         <div id="mobile-menu" class="md:hidden hidden bg-dark-900/95 backdrop-blur-xl border-b border-white/5 px-6 pb-6 space-y-4">
+            <a href="#ecosystem" class="block text-gray-300 hover:text-white">Экосистема</a>
             <a href="#products" class="block text-gray-300 hover:text-white">Продукты</a>
-            <a href="#features" class="block text-gray-300 hover:text-white">Возможности</a>
             <a href="#about" class="block text-gray-300 hover:text-white">О нас</a>
             <a href="#contact" class="block text-gray-300 hover:text-white">Контакты</a>
-            <a href="#contact" class="block text-center font-medium px-5 py-2.5 rounded-lg bg-white text-dark-900">Начать</a>
         </div>
     </nav>
 
     {{-- Hero Section --}}
     <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {{-- Background Effects --}}
         <div class="absolute inset-0">
             <div class="absolute top-1/4 left-1/3 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-gold/8 rounded-full blur-[120px]"></div>
             <div class="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-brand-purple/8 rounded-full blur-[120px]"></div>
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-brand-blue/6 rounded-full blur-[100px]"></div>
         </div>
 
-        {{-- Grid pattern --}}
         <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 60px 60px;"></div>
 
         <div class="relative z-10 max-w-5xl mx-auto px-6 text-center pt-20">
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 mb-8">
-                <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
-                <span class="text-gray-300 text-sm font-medium">Экосистема цифровых решений</span>
-            </div>
+            <img src="/images/logo.png" alt="FORRIS" class="h-14 sm:h-16 mx-auto mb-10 brightness-0 invert">
 
-            <h1 class="text-5xl sm:text-6xl lg:text-8xl font-extrabold text-white leading-[1.05] tracking-tight mb-6">
-                Будущее начинается
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-white leading-[1.1] tracking-tight mb-6">
+                Экосистема цифровых
                 <br>
-                <span class="bg-gradient-to-r from-brand-gold via-brand-purple to-brand-blue bg-clip-text text-transparent">с FORRIS</span>
+                <span class="bg-gradient-to-r from-brand-gold via-brand-purple to-brand-blue bg-clip-text text-transparent">решений для бизнеса</span>
             </h1>
 
-            <p class="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-                Интернет-магазин, маркетплейсы, IT-продукты и бизнес-решения —
-                всё под одним брендом. От e-commerce до Digital Signage.
+            <p class="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed">
+                FORRIS объединяет интернет-магазин, маркетплейсы, аналитику для селлеров,
+                фулфилмент, POS-системы для ресторанов, Digital Signage и туристический сервис —
+                всё под одним брендом.
             </p>
 
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="#products" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-white text-dark-900 font-semibold text-base hover:bg-gray-200 transition-all hover:shadow-[0_0_30px_rgba(255,255,255,0.15)] active:scale-95">
-                    Изучить продукты
-                </a>
-                <a href="#about" class="w-full sm:w-auto px-8 py-3.5 rounded-xl border border-white/10 text-white font-semibold text-base hover:bg-white/5 transition-all active:scale-95">
-                    Узнать больше
-                </a>
-            </div>
+            <a href="#products" class="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-white text-dark-900 font-semibold text-base hover:bg-gray-200 transition-all hover:shadow-[0_0_30px_rgba(255,255,255,0.15)] active:scale-95">
+                Наши продукты
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8h8M8 4l4 4-4 4"/></svg>
+            </a>
 
             {{-- Stats --}}
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-20 pt-10 border-t border-white/5">
                 <div>
-                    <div class="text-3xl sm:text-4xl font-bold text-white">7+</div>
-                    <div class="text-sm text-gray-500 mt-1">Продуктов</div>
+                    <div class="text-3xl sm:text-4xl font-bold text-white">7</div>
+                    <div class="text-sm text-gray-500 mt-1">Продуктов в экосистеме</div>
                 </div>
                 <div>
-                    <div class="text-3xl sm:text-4xl font-bold text-white">E-com</div>
-                    <div class="text-sm text-gray-500 mt-1">Маркетплейсы</div>
+                    <div class="text-3xl sm:text-4xl font-bold text-white">4+</div>
+                    <div class="text-sm text-gray-500 mt-1">Маркетплейса</div>
                 </div>
                 <div>
-                    <div class="text-3xl sm:text-4xl font-bold text-white">HoReCa</div>
-                    <div class="text-sm text-gray-500 mt-1">POS-системы</div>
+                    <div class="text-3xl sm:text-4xl font-bold text-white">B2B</div>
+                    <div class="text-sm text-gray-500 mt-1">и B2C решения</div>
                 </div>
                 <div>
-                    <div class="text-3xl sm:text-4xl font-bold text-white">SaaS</div>
-                    <div class="text-sm text-gray-500 mt-1">IT-решения</div>
+                    <div class="text-3xl sm:text-4xl font-bold text-white">UZ</div>
+                    <div class="text-sm text-gray-500 mt-1">Сделано в Узбекистане</div>
                 </div>
             </div>
         </div>
 
-        {{-- Scroll indicator --}}
         <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-            <span class="text-xs text-gray-500">Прокрутите вниз</span>
+            <span class="text-xs text-gray-500">Подробнее</span>
             <div class="w-5 h-8 rounded-full border-2 border-gray-600 flex items-start justify-center p-1">
                 <div class="w-1 h-2 rounded-full bg-white animate-bounce"></div>
             </div>
         </div>
     </section>
 
-    {{-- Products Section --}}
-    <section id="products" class="py-24 sm:py-32 relative">
+    {{-- Ecosystem Overview --}}
+    <section id="ecosystem" class="py-24 sm:py-32 relative">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-16">
-                <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">Наши продукты</span>
-                <h2 class="text-4xl sm:text-5xl font-bold text-white mt-3 tracking-tight">Экосистема FORRIS</h2>
-                <p class="text-gray-400 mt-4 max-w-xl mx-auto">
-                    От интернет-магазина и маркетплейсов до POS-систем, фулфилмента и Digital Signage
+                <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">Как это работает</span>
+                <h2 class="text-3xl sm:text-5xl font-bold text-white mt-3 tracking-tight">Одна экосистема — все направления</h2>
+                <p class="text-gray-400 mt-4 max-w-2xl mx-auto leading-relaxed">
+                    FORRIS — это не просто набор продуктов. Это единая экосистема, где каждый сервис
+                    дополняет другой: от продажи товаров на маркетплейсах до управления рестораном,
+                    туристических услуг и трансляции контента на экранах.
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                @php
-                $products = [
-                    ['icon' => '🛒', 'name' => 'FORRIS Store', 'desc' => 'Собственный интернет-магазин бренда FORRIS — широкий ассортимент товаров с быстрой доставкой и удобным оформлением заказов', 'color' => 'from-amber-500/20 to-amber-500/5', 'border' => 'border-amber-500/20', 'accent' => 'text-amber-400'],
-                    ['icon' => '🏪', 'name' => 'FORRIS на маркетплейсах', 'desc' => 'Официальные магазины бренда FORRIS на ведущих маркетплейсах — покупайте там, где вам удобно', 'color' => 'from-orange-500/20 to-orange-500/5', 'border' => 'border-orange-500/20', 'accent' => 'text-orange-400'],
-                    ['icon' => '🧠', 'name' => 'SellerMind', 'desc' => 'Умная платформа для продавцов — аналитика продаж, управление товарами и автоматизация работы на маркетплейсах', 'color' => 'from-blue-500/20 to-blue-500/5', 'border' => 'border-blue-500/20', 'accent' => 'text-blue-400'],
-                    ['icon' => '📦', 'name' => 'Risment', 'desc' => 'Фулфилмент-сервис для селлеров — хранение, упаковка и отправка товаров. Полный цикл логистики под ключ', 'color' => 'from-violet-500/20 to-violet-500/5', 'border' => 'border-violet-500/20', 'accent' => 'text-violet-400'],
-                    ['icon' => '🍽️', 'name' => 'RestoPos', 'desc' => 'POS-система для ресторанов и кафе — приём заказов, управление меню, аналитика и контроль кухни в реальном времени', 'color' => 'from-rose-500/20 to-rose-500/5', 'border' => 'border-rose-500/20', 'accent' => 'text-rose-400'],
-                    ['icon' => '💳', 'name' => 'Paynes', 'desc' => 'Кассовая система нового поколения — быстрые расчёты, фискализация, интеграция с банками и учёт продаж', 'color' => 'from-cyan-500/20 to-cyan-500/5', 'border' => 'border-cyan-500/20', 'accent' => 'text-cyan-400'],
-                    ['icon' => '📺', 'name' => 'SILON', 'desc' => 'Система управления медиаконтентом для экранов. Централизованное управление и трансляция контента на мониторах по всему миру', 'color' => 'from-purple-500/20 to-purple-500/5', 'border' => 'border-purple-500/20', 'accent' => 'text-purple-400'],
-                ];
-                @endphp
-
-                @foreach($products as $product)
-                <div class="group relative p-6 rounded-2xl bg-gradient-to-b {{ $product['color'] }} border {{ $product['border'] }} hover:scale-[1.02] transition-all duration-300 cursor-pointer">
-                    <div class="text-4xl mb-4">{{ $product['icon'] }}</div>
-                    <h3 class="text-xl font-bold text-white mb-2">{{ $product['name'] }}</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">{{ $product['desc'] }}</p>
-                    <div class="mt-4 flex items-center gap-1 {{ $product['accent'] }} text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                        Подробнее
-                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" class="translate-x-0 group-hover:translate-x-1 transition-transform">
-                            <path d="M5 12l6-6M11 6H5M11 6v6"/>
-                        </svg>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+                    <div class="w-10 h-10 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-400 mb-4">
+                        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 3h18v18H3z" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 9h18M9 21V9" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
+                    <h3 class="text-white font-bold mb-1">E-commerce</h3>
+                    <p class="text-gray-500 text-sm">Интернет-магазин и 4 маркетплейса</p>
                 </div>
-                @endforeach
+                <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+                    <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4">
+                        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="text-white font-bold mb-1">SaaS</h3>
+                    <p class="text-gray-500 text-sm">SellerMind, Risment, SILON</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+                    <div class="w-10 h-10 rounded-lg bg-rose-500/10 flex items-center justify-center text-rose-400 mb-4">
+                        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="text-white font-bold mb-1">HoReCa</h3>
+                    <p class="text-gray-500 text-sm">ForrisPos для ресторанов и кафе</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+                    <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-4">
+                        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="text-white font-bold mb-1">Travel</h3>
+                    <p class="text-gray-500 text-sm">FORRIS Travel — туризм и путешествия</p>
+                </div>
             </div>
         </div>
     </section>
 
-    {{-- Features Section --}}
-    <section id="features" class="py-24 sm:py-32 relative">
+    {{-- Products Section --}}
+    <section id="products" class="py-24 sm:py-32 relative">
         <div class="absolute inset-0">
-            <div class="absolute top-1/2 left-0 w-[500px] h-[500px] bg-brand-purple/5 rounded-full blur-[120px]"></div>
-            <div class="absolute bottom-0 right-0 w-[400px] h-[400px] bg-brand-gold/5 rounded-full blur-[100px]"></div>
+            <div class="absolute top-1/3 right-0 w-[500px] h-[500px] bg-brand-purple/5 rounded-full blur-[120px]"></div>
         </div>
 
         <div class="relative max-w-7xl mx-auto px-6">
             <div class="text-center mb-16">
-                <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">Почему FORRIS</span>
-                <h2 class="text-4xl sm:text-5xl font-bold text-white mt-3 tracking-tight">Преимущества платформы</h2>
+                <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">Продукты</span>
+                <h2 class="text-3xl sm:text-5xl font-bold text-white mt-3 tracking-tight">Каждый продукт — отдельная сила</h2>
             </div>
 
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                @php
-                $features = [
-                    ['title' => 'Полная экосистема', 'desc' => 'Интернет-магазин, маркетплейсы, фулфилмент, POS и аналитика — всё работает вместе под брендом FORRIS', 'icon' => 'M13 10V3L4 14h7v7l9-11h-7z'],
-                    ['title' => 'Мультиканальные продажи', 'desc' => 'Продаём через собственный магазин и все ведущие маркетплейсы — максимальный охват аудитории', 'icon' => 'M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'],
-                    ['title' => 'Инструменты для селлеров', 'desc' => 'SellerMind и Risment помогают продавцам масштабировать бизнес — от аналитики до полного фулфилмента', 'icon' => 'M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75'],
-                    ['title' => 'HoReCa решения', 'desc' => 'RestoPos и Paynes автоматизируют работу ресторанов и кафе — от приёма заказов до фискализации', 'icon' => 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'],
-                    ['title' => 'Digital Signage', 'desc' => 'SILON позволяет централизованно управлять и транслировать медиаконтент на экранах в любой точке мира', 'icon' => 'M12 6V2m0 4a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V9m6 3H6m12 0a2 2 0 100 4m0-4a2 2 0 110 4m0 0v2m0-6V9'],
-                    ['title' => 'Собственные технологии', 'desc' => 'Все продукты разработаны внутри компании — полный контроль качества, быстрые обновления и развитие', 'icon' => 'M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9'],
-                ];
-                @endphp
-
-                @foreach($features as $feature)
-                <div class="group p-6">
-                    <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white mb-4 group-hover:bg-white/10 transition-colors">
-                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                            <path d="{{ $feature['icon'] }}" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+            {{-- FORRIS Store --}}
+            <div class="mb-8 p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-amber-500/10 to-transparent border border-amber-500/15">
+                <div class="flex flex-col lg:flex-row lg:items-start gap-8">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">🛒</span>
+                            <h3 class="text-2xl sm:text-3xl font-bold text-white">FORRIS Store</h3>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-4">
+                            Собственный интернет-магазин бренда FORRIS. Широкий ассортимент товаров
+                            для дома, электроники и аксессуаров с удобным оформлением заказов,
+                            быстрой доставкой по Узбекистану и гарантией качества.
+                        </p>
+                        <p class="text-gray-500 text-sm mb-6">
+                            Также бренд FORRIS официально представлен на 4 крупнейших маркетплейсах
+                            под брендом <strong class="text-gray-400">FORRIS HOME</strong>.
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-6">
+                            <a href="https://store.forris.uz" target="_blank" class="px-3 py-1.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-medium hover:bg-amber-500/20 transition-colors">FORRIS Store</a>
+                            <a href="https://uzum.uz/ru/shop/qulay-uy" target="_blank" class="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-gray-300 text-xs font-medium hover:bg-white/10 transition-colors">Uzum Market</a>
+                            <a href="https://www.wildberries.ru/seller/4043207" target="_blank" class="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-gray-300 text-xs font-medium hover:bg-white/10 transition-colors">Wildberries</a>
+                            <a href="https://www.ozon.ru/seller/forris-home-uz-1988192/" target="_blank" class="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-gray-300 text-xs font-medium hover:bg-white/10 transition-colors">Ozon</a>
+                            <a href="https://market.yandex.uz/business--forris-home/198398241" target="_blank" class="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-gray-300 text-xs font-medium hover:bg-white/10 transition-colors">Yandex Market</a>
+                        </div>
                     </div>
-                    <h3 class="text-lg font-bold text-white mb-2">{{ $feature['title'] }}</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">{{ $feature['desc'] }}</p>
                 </div>
-                @endforeach
+            </div>
+
+            {{-- SellerMind --}}
+            <div class="mb-8 p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-blue-500/10 to-transparent border border-blue-500/15">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-3xl">🧠</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">SellerMind</h3>
+                </div>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    Умная платформа управления продажами на маркетплейсах с элементами искусственного
+                    интеллекта. SellerMind помогает селлерам анализировать продажи, отслеживать остатки,
+                    управлять ценообразованием и автоматизировать рутинные операции на Uzum Market,
+                    Wildberries, Ozon и Yandex Market из единого интерфейса.
+                </p>
+                <div class="flex flex-wrap gap-4 mb-6">
+                    <span class="text-gray-500 text-sm">AI-аналитика</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Управление товарами</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Мультимаркетплейс</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Автоматизация</span>
+                </div>
+                <a href="https://sellermind.uz" target="_blank" class="inline-flex items-center gap-2 text-blue-400 font-medium hover:text-blue-300 transition-colors">
+                    sellermind.uz
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l6-6M11 6H5M11 6v6"/></svg>
+                </a>
+            </div>
+
+            {{-- Risment --}}
+            <div class="mb-8 p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-violet-500/10 to-transparent border border-violet-500/15">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-3xl">📦</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">Risment</h3>
+                </div>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    Профессиональный фулфилмент-сервис для селлеров маркетплейсов. Склад площадью
+                    5 000+ м² в Ташкенте (Юнусабад). Полный цикл логистики под ключ: приёмка,
+                    хранение, комплектация, упаковка и отправка товаров на Uzum, Wildberries,
+                    Ozon и Yandex Market.
+                </p>
+                <div class="flex flex-wrap gap-4 mb-6">
+                    <span class="text-gray-500 text-sm">5 000+ м² склад</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Хранение</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Упаковка</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Доставка на склады МП</span>
+                </div>
+                <a href="https://risment.uz" target="_blank" class="inline-flex items-center gap-2 text-violet-400 font-medium hover:text-violet-300 transition-colors">
+                    risment.uz
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l6-6M11 6H5M11 6v6"/></svg>
+                </a>
+            </div>
+
+            {{-- ForrisPos --}}
+            <div class="mb-8 p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-rose-500/10 to-transparent border border-rose-500/15">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-3xl">🍽️</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">ForrisPos</h3>
+                </div>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    POS-система, разработанная специально для ресторанов и кафе. Приём и управление
+                    заказами, электронное меню, контроль кухни в реальном времени, аналитика продаж
+                    и учёт персонала. Интуитивный интерфейс, который работает на планшетах и
+                    POS-терминалах.
+                </p>
+                <div class="flex flex-wrap gap-4 mb-6">
+                    <span class="text-gray-500 text-sm">Приём заказов</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Электронное меню</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Контроль кухни</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Аналитика</span>
+                </div>
+                <a href="https://pos.forris.uz" target="_blank" class="inline-flex items-center gap-2 text-rose-400 font-medium hover:text-rose-300 transition-colors">
+                    pos.forris.uz
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l6-6M11 6H5M11 6v6"/></svg>
+                </a>
+            </div>
+
+            {{-- SILON --}}
+            <div class="mb-8 p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-purple-500/10 to-transparent border border-purple-500/15">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-3xl">📺</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">SILON</h3>
+                    <span class="px-2 py-0.5 rounded-md bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-medium">В разработке</span>
+                </div>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    Система управления медиаконтентом для экранов (Digital Signage). Позволяет
+                    централизованно управлять и транслировать рекламный и информационный контент
+                    на мониторах в любой точке мира. Идеально для ресторанов, магазинов, офисов
+                    и общественных пространств.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <span class="text-gray-500 text-sm">Digital Signage</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Удалённое управление</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Расписание контента</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Мониторинг экранов</span>
+                </div>
+            </div>
+
+            {{-- FORRIS Travel --}}
+            <div class="p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-emerald-500/10 to-transparent border border-emerald-500/15">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-3xl">✈️</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">FORRIS Travel</h3>
+                </div>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    Туристический сервис для организации путешествий. Бронирование туров,
+                    авиабилетов, отелей и трансферов. Индивидуальные и групповые туры
+                    с профессиональной поддержкой на всех этапах поездки.
+                </p>
+                <div class="flex flex-wrap gap-4 mb-6">
+                    <span class="text-gray-500 text-sm">Туры</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Авиабилеты</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Отели</span>
+                    <span class="text-gray-600">·</span>
+                    <span class="text-gray-500 text-sm">Трансферы</span>
+                </div>
+                <a href="https://travel.forris.uz" target="_blank" class="inline-flex items-center gap-2 text-emerald-400 font-medium hover:text-emerald-300 transition-colors">
+                    travel.forris.uz
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l6-6M11 6H5M11 6v6"/></svg>
+                </a>
             </div>
         </div>
     </section>
 
-    {{-- About / CTA Section --}}
+    {{-- About Section --}}
     <section id="about" class="py-24 sm:py-32 relative">
         <div class="max-w-7xl mx-auto px-6">
             <div class="relative rounded-3xl overflow-hidden">
@@ -213,23 +338,29 @@
                     <div class="max-w-3xl">
                         <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">О компании</span>
                         <h2 class="text-3xl sm:text-5xl font-bold text-white mt-3 tracking-tight leading-tight">
-                            Мы создаём технологии,<br>которые вдохновляют
+                            FOR + RIS
                         </h2>
                         <p class="text-gray-400 mt-6 text-lg leading-relaxed max-w-2xl">
-                            FORRIS — это экосистема, объединяющая e-commerce, IT-продукты
-                            и бизнес-решения. Мы развиваем собственный интернет-магазин,
-                            работаем на крупнейших маркетплейсах и создаём технологии для
-                            селлеров, ресторанов и бизнеса — от аналитики продаж до
-                            управления медиаконтентом на экранах по всему миру.
+                            Название FORRIS — это <strong class="text-gray-300">FOR</strong> (англ. «для», «ради») и
+                            <strong class="text-gray-300">RIS</strong> — инициалы основателей компании.
+                            Мы создаём технологии <em>для людей</em> — надёжные, стабильные и по-настоящему полезные.
+                        </p>
+                        <p class="text-gray-400 mt-4 text-lg leading-relaxed max-w-2xl">
+                            Начав с интернет-магазина, мы выросли в экосистему из 7 продуктов:
+                            от аналитики для селлеров и фулфилмента до POS-систем для ресторанов,
+                            туристического сервиса и управления медиаконтентом на экранах.
+                            Все продукты разработаны внутри компании в Узбекистане.
                         </p>
 
-                        <div class="flex flex-col sm:flex-row gap-4 mt-10">
-                            <a href="#contact" class="inline-flex items-center justify-center px-8 py-3.5 rounded-xl bg-white text-dark-900 font-semibold text-base hover:bg-gray-100 transition-all active:scale-95">
-                                Связаться с нами
-                            </a>
-                            <a href="#products" class="inline-flex items-center justify-center px-8 py-3.5 rounded-xl border border-white/20 text-white font-semibold text-base hover:bg-white/5 transition-all active:scale-95">
-                                Наши продукты
-                            </a>
+                        <div class="grid grid-cols-2 gap-6 mt-10">
+                            <div>
+                                <div class="text-2xl font-bold text-white">Надёжность</div>
+                                <p class="text-gray-500 text-sm mt-1">Стабильные решения для бизнеса</p>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-white">Инновации</div>
+                                <p class="text-gray-500 text-sm mt-1">AI и современные технологии</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -241,31 +372,28 @@
     <section id="contact" class="py-24 sm:py-32 relative">
         <div class="max-w-3xl mx-auto px-6 text-center">
             <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">Контакты</span>
-            <h2 class="text-4xl sm:text-5xl font-bold text-white mt-3 tracking-tight">Давайте начнём вместе</h2>
+            <h2 class="text-3xl sm:text-5xl font-bold text-white mt-3 tracking-tight">Свяжитесь с нами</h2>
             <p class="text-gray-400 mt-4 max-w-xl mx-auto">
-                Оставьте заявку и наша команда свяжется с вами в ближайшее время
+                Есть вопросы о продуктах экосистемы FORRIS? Мы на связи.
             </p>
 
-            <form method="POST" action="#" class="mt-12 space-y-4 text-left">
-                @csrf
-                <div class="grid sm:grid-cols-2 gap-4">
-                    <div>
-                        <label class="block text-sm text-gray-400 mb-1.5">Имя</label>
-                        <input type="text" name="name" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-xl bg-dark-700 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 focus:ring-1 focus:ring-white/20 transition-colors">
-                    </div>
-                    <div>
-                        <label class="block text-sm text-gray-400 mb-1.5">Email</label>
-                        <input type="email" name="email" placeholder="you@example.com" class="w-full px-4 py-3 rounded-xl bg-dark-700 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 focus:ring-1 focus:ring-white/20 transition-colors">
-                    </div>
-                </div>
-                <div>
-                    <label class="block text-sm text-gray-400 mb-1.5">Сообщение</label>
-                    <textarea name="message" rows="4" placeholder="Расскажите о вашем проекте..." class="w-full px-4 py-3 rounded-xl bg-dark-700 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 focus:ring-1 focus:ring-white/20 transition-colors resize-none"></textarea>
-                </div>
-                <button type="submit" class="w-full py-3.5 rounded-xl bg-white text-dark-900 font-semibold text-base hover:bg-gray-200 transition-all hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] active:scale-[0.98] cursor-pointer">
-                    Отправить заявку
-                </button>
-            </form>
+            <div class="grid sm:grid-cols-3 gap-6 mt-12">
+                <a href="mailto:info@forris.uz" class="p-6 rounded-2xl bg-dark-700 border border-white/5 hover:border-white/10 transition-colors text-center">
+                    <div class="text-2xl mb-3">✉️</div>
+                    <div class="text-white font-semibold mb-1">Email</div>
+                    <div class="text-gray-400 text-sm">info@forris.uz</div>
+                </a>
+                <a href="https://www.instagram.com/forris.uz" target="_blank" class="p-6 rounded-2xl bg-dark-700 border border-white/5 hover:border-white/10 transition-colors text-center">
+                    <div class="text-2xl mb-3">📷</div>
+                    <div class="text-white font-semibold mb-1">Instagram</div>
+                    <div class="text-gray-400 text-sm">@forris.uz</div>
+                </a>
+                <a href="https://forris.uz" class="p-6 rounded-2xl bg-dark-700 border border-white/5 hover:border-white/10 transition-colors text-center">
+                    <div class="text-2xl mb-3">🌐</div>
+                    <div class="text-white font-semibold mb-1">Сайт</div>
+                    <div class="text-gray-400 text-sm">forris.uz</div>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -274,26 +402,30 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div>
-                    <div class="flex items-center gap-2 mb-4">
-                        <div class="w-8 h-8 bg-gradient-to-br from-brand-gold to-amber-700 rounded-lg flex items-center justify-center">
-                            <span class="text-white font-extrabold text-sm">F</span>
-                        </div>
-                        <span class="text-lg font-bold text-white">FORRIS</span>
-                    </div>
+                    <img src="/images/logo.png" alt="FORRIS" class="h-7 brightness-0 invert mb-4">
                     <p class="text-sm text-gray-500 leading-relaxed">
-                        E-commerce, IT-продукты и бизнес-решения под одним брендом.
+                        Экосистема e-commerce, IT-продуктов и бизнес-решений. Сделано в Узбекистане.
                     </p>
                 </div>
 
                 <div>
                     <h4 class="text-sm font-semibold text-white mb-4">Продукты</h4>
                     <div class="space-y-2.5">
-                        <a href="#products" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">FORRIS Store</a>
-                        <a href="#products" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">SellerMind</a>
-                        <a href="#products" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Risment</a>
-                        <a href="#products" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">RestoPos</a>
-                        <a href="#products" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Paynes</a>
-                        <a href="#products" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">SILON</a>
+                        <a href="https://store.forris.uz" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">FORRIS Store</a>
+                        <a href="https://sellermind.uz" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">SellerMind</a>
+                        <a href="https://risment.uz" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Risment</a>
+                        <a href="https://pos.forris.uz" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">ForrisPos</a>
+                        <a href="https://travel.forris.uz" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">FORRIS Travel</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-semibold text-white mb-4">Маркетплейсы</h4>
+                    <div class="space-y-2.5">
+                        <a href="https://uzum.uz/ru/shop/qulay-uy" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Uzum Market</a>
+                        <a href="https://www.wildberries.ru/seller/4043207" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Wildberries</a>
+                        <a href="https://www.ozon.ru/seller/forris-home-uz-1988192/" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Ozon</a>
+                        <a href="https://market.yandex.uz/business--forris-home/198398241" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Yandex Market</a>
                     </div>
                 </div>
 
@@ -301,39 +433,19 @@
                     <h4 class="text-sm font-semibold text-white mb-4">Компания</h4>
                     <div class="space-y-2.5">
                         <a href="#about" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">О нас</a>
-                        <a href="#" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Карьера</a>
-                        <a href="#" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Блог</a>
-                        <a href="#contact" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Контакты</a>
-                    </div>
-                </div>
-
-                <div>
-                    <h4 class="text-sm font-semibold text-white mb-4">Соцсети</h4>
-                    <div class="flex gap-3">
-                        <a href="#" class="w-10 h-10 rounded-lg bg-dark-700 border border-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-dark-600 transition-colors" title="Telegram">
-                            <span class="text-xs font-bold">T</span>
-                        </a>
-                        <a href="#" class="w-10 h-10 rounded-lg bg-dark-700 border border-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-dark-600 transition-colors" title="GitHub">
-                            <span class="text-xs font-bold">G</span>
-                        </a>
-                        <a href="#" class="w-10 h-10 rounded-lg bg-dark-700 border border-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-dark-600 transition-colors" title="Instagram">
-                            <span class="text-xs font-bold">I</span>
-                        </a>
+                        <a href="#ecosystem" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Экосистема</a>
+                        <a href="https://www.instagram.com/forris.uz" target="_blank" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">Instagram</a>
+                        <a href="mailto:info@forris.uz" class="block text-sm text-gray-500 hover:text-gray-300 transition-colors">info@forris.uz</a>
                     </div>
                 </div>
             </div>
 
             <div class="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <p class="text-sm text-gray-600">&copy; {{ date('Y') }} FORRIS. Все права защищены.</p>
-                <div class="flex gap-6">
-                    <a href="#" class="text-sm text-gray-600 hover:text-gray-400 transition-colors">Конфиденциальность</a>
-                    <a href="#" class="text-sm text-gray-600 hover:text-gray-400 transition-colors">Условия</a>
-                </div>
             </div>
         </div>
     </footer>
 
-    {{-- Navbar scroll effect & mobile menu --}}
     <script>
         const navbar = document.getElementById('navbar');
         const toggle = document.getElementById('mobile-toggle');
