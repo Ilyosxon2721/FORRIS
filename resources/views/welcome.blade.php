@@ -18,7 +18,7 @@
     <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
             <a href="#" class="flex items-center gap-2">
-                <div class="w-9 h-9 bg-gradient-to-br from-forest-400 to-forest-600 rounded-lg flex items-center justify-center">
+                <div class="w-9 h-9 bg-gradient-to-br from-brand-gold to-amber-700 rounded-lg flex items-center justify-center">
                     <span class="text-white font-extrabold text-lg">F</span>
                 </div>
                 <span class="text-xl font-bold text-white tracking-tight">FORRIS</span>
@@ -29,7 +29,7 @@
                 <a href="#features" class="text-sm text-gray-400 hover:text-white transition-colors">Возможности</a>
                 <a href="#about" class="text-sm text-gray-400 hover:text-white transition-colors">О нас</a>
                 <a href="#contact" class="text-sm text-gray-400 hover:text-white transition-colors">Контакты</a>
-                <a href="#contact" class="text-sm font-medium px-5 py-2 rounded-lg bg-forest-600 text-white hover:bg-forest-500 transition-colors">Начать</a>
+                <a href="#contact" class="text-sm font-medium px-5 py-2 rounded-lg bg-white text-dark-900 hover:bg-gray-200 transition-colors">Начать</a>
             </div>
 
             <button id="mobile-toggle" class="md:hidden text-white cursor-pointer" aria-label="Menu">
@@ -47,7 +47,7 @@
             <a href="#features" class="block text-gray-300 hover:text-white">Возможности</a>
             <a href="#about" class="block text-gray-300 hover:text-white">О нас</a>
             <a href="#contact" class="block text-gray-300 hover:text-white">Контакты</a>
-            <a href="#contact" class="block text-center font-medium px-5 py-2.5 rounded-lg bg-forest-600 text-white">Начать</a>
+            <a href="#contact" class="block text-center font-medium px-5 py-2.5 rounded-lg bg-white text-dark-900">Начать</a>
         </div>
     </nav>
 
@@ -55,24 +55,24 @@
     <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
         {{-- Background Effects --}}
         <div class="absolute inset-0">
-            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-forest-600/15 rounded-full blur-[120px]"></div>
-            <div class="absolute bottom-0 left-1/4 w-[400px] h-[400px] bg-forest-500/10 rounded-full blur-[100px]"></div>
-            <div class="absolute top-1/3 right-1/4 w-[300px] h-[300px] bg-emerald-500/8 rounded-full blur-[80px]"></div>
+            <div class="absolute top-1/4 left-1/3 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-gold/8 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-brand-purple/8 rounded-full blur-[120px]"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-brand-blue/6 rounded-full blur-[100px]"></div>
         </div>
 
         {{-- Grid pattern --}}
         <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 60px 60px;"></div>
 
         <div class="relative z-10 max-w-5xl mx-auto px-6 text-center pt-20">
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-forest-500/10 border border-forest-500/20 mb-8">
-                <span class="w-2 h-2 rounded-full bg-forest-400 animate-pulse"></span>
-                <span class="text-forest-300 text-sm font-medium">Экосистема цифровых решений</span>
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 mb-8">
+                <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+                <span class="text-gray-300 text-sm font-medium">Экосистема цифровых решений</span>
             </div>
 
             <h1 class="text-5xl sm:text-6xl lg:text-8xl font-extrabold text-white leading-[1.05] tracking-tight mb-6">
                 Будущее начинается
                 <br>
-                <span class="bg-gradient-to-r from-forest-300 via-forest-400 to-emerald-400 bg-clip-text text-transparent">с FORRIS</span>
+                <span class="bg-gradient-to-r from-brand-gold via-brand-purple to-brand-blue bg-clip-text text-transparent">с FORRIS</span>
             </h1>
 
             <p class="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
@@ -81,7 +81,7 @@
             </p>
 
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="#products" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-forest-600 text-white font-semibold text-base hover:bg-forest-500 transition-all hover:shadow-[0_0_30px_rgba(34,197,94,0.3)] active:scale-95">
+                <a href="#products" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-white text-dark-900 font-semibold text-base hover:bg-gray-200 transition-all hover:shadow-[0_0_30px_rgba(255,255,255,0.15)] active:scale-95">
                     Изучить продукты
                 </a>
                 <a href="#about" class="w-full sm:w-auto px-8 py-3.5 rounded-xl border border-white/10 text-white font-semibold text-base hover:bg-white/5 transition-all active:scale-95">
@@ -114,7 +114,7 @@
         <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
             <span class="text-xs text-gray-500">Прокрутите вниз</span>
             <div class="w-5 h-8 rounded-full border-2 border-gray-600 flex items-start justify-center p-1">
-                <div class="w-1 h-2 rounded-full bg-forest-400 animate-bounce"></div>
+                <div class="w-1 h-2 rounded-full bg-white animate-bounce"></div>
             </div>
         </div>
     </section>
@@ -123,7 +123,7 @@
     <section id="products" class="py-24 sm:py-32 relative">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-16">
-                <span class="text-forest-400 text-sm font-semibold uppercase tracking-widest">Наши продукты</span>
+                <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">Наши продукты</span>
                 <h2 class="text-4xl sm:text-5xl font-bold text-white mt-3 tracking-tight">Экосистема FORRIS</h2>
                 <p class="text-gray-400 mt-4 max-w-xl mx-auto">
                     От интернет-магазина и маркетплейсов до POS-систем, фулфилмента и Digital Signage
@@ -133,13 +133,13 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 @php
                 $products = [
-                    ['icon' => '🛒', 'name' => 'FORRIS Store', 'desc' => 'Собственный интернет-магазин бренда FORRIS — широкий ассортимент товаров с быстрой доставкой и удобным оформлением заказов', 'color' => 'from-emerald-500/20 to-emerald-500/5', 'border' => 'border-emerald-500/20'],
-                    ['icon' => '🏪', 'name' => 'FORRIS на маркетплейсах', 'desc' => 'Официальные магазины бренда FORRIS на ведущих маркетплейсах — покупайте там, где вам удобно', 'color' => 'from-blue-500/20 to-blue-500/5', 'border' => 'border-blue-500/20'],
-                    ['icon' => '🧠', 'name' => 'SellerMind', 'desc' => 'Умная платформа для продавцов — аналитика продаж, управление товарами и автоматизация работы на маркетплейсах', 'color' => 'from-violet-500/20 to-violet-500/5', 'border' => 'border-violet-500/20'],
-                    ['icon' => '📦', 'name' => 'Risment', 'desc' => 'Фулфилмент-сервис для селлеров — хранение, упаковка и отправка товаров. Полный цикл логистики под ключ', 'color' => 'from-amber-500/20 to-amber-500/5', 'border' => 'border-amber-500/20'],
-                    ['icon' => '🍽️', 'name' => 'RestoPos', 'desc' => 'POS-система для ресторанов и кафе — приём заказов, управление меню, аналитика и контроль кухни в реальном времени', 'color' => 'from-rose-500/20 to-rose-500/5', 'border' => 'border-rose-500/20'],
-                    ['icon' => '💳', 'name' => 'Paynes', 'desc' => 'Кассовая система нового поколения — быстрые расчёты, фискализация, интеграция с банками и учёт продаж', 'color' => 'from-cyan-500/20 to-cyan-500/5', 'border' => 'border-cyan-500/20'],
-                    ['icon' => '📺', 'name' => 'SILON', 'desc' => 'Система управления медиаконтентом для экранов. Централизованное управление и трансляция контента на мониторах по всему миру', 'color' => 'from-purple-500/20 to-purple-500/5', 'border' => 'border-purple-500/20'],
+                    ['icon' => '🛒', 'name' => 'FORRIS Store', 'desc' => 'Собственный интернет-магазин бренда FORRIS — широкий ассортимент товаров с быстрой доставкой и удобным оформлением заказов', 'color' => 'from-amber-500/20 to-amber-500/5', 'border' => 'border-amber-500/20', 'accent' => 'text-amber-400'],
+                    ['icon' => '🏪', 'name' => 'FORRIS на маркетплейсах', 'desc' => 'Официальные магазины бренда FORRIS на ведущих маркетплейсах — покупайте там, где вам удобно', 'color' => 'from-orange-500/20 to-orange-500/5', 'border' => 'border-orange-500/20', 'accent' => 'text-orange-400'],
+                    ['icon' => '🧠', 'name' => 'SellerMind', 'desc' => 'Умная платформа для продавцов — аналитика продаж, управление товарами и автоматизация работы на маркетплейсах', 'color' => 'from-blue-500/20 to-blue-500/5', 'border' => 'border-blue-500/20', 'accent' => 'text-blue-400'],
+                    ['icon' => '📦', 'name' => 'Risment', 'desc' => 'Фулфилмент-сервис для селлеров — хранение, упаковка и отправка товаров. Полный цикл логистики под ключ', 'color' => 'from-violet-500/20 to-violet-500/5', 'border' => 'border-violet-500/20', 'accent' => 'text-violet-400'],
+                    ['icon' => '🍽️', 'name' => 'RestoPos', 'desc' => 'POS-система для ресторанов и кафе — приём заказов, управление меню, аналитика и контроль кухни в реальном времени', 'color' => 'from-rose-500/20 to-rose-500/5', 'border' => 'border-rose-500/20', 'accent' => 'text-rose-400'],
+                    ['icon' => '💳', 'name' => 'Paynes', 'desc' => 'Кассовая система нового поколения — быстрые расчёты, фискализация, интеграция с банками и учёт продаж', 'color' => 'from-cyan-500/20 to-cyan-500/5', 'border' => 'border-cyan-500/20', 'accent' => 'text-cyan-400'],
+                    ['icon' => '📺', 'name' => 'SILON', 'desc' => 'Система управления медиаконтентом для экранов. Централизованное управление и трансляция контента на мониторах по всему миру', 'color' => 'from-purple-500/20 to-purple-500/5', 'border' => 'border-purple-500/20', 'accent' => 'text-purple-400'],
                 ];
                 @endphp
 
@@ -148,7 +148,7 @@
                     <div class="text-4xl mb-4">{{ $product['icon'] }}</div>
                     <h3 class="text-xl font-bold text-white mb-2">{{ $product['name'] }}</h3>
                     <p class="text-gray-400 text-sm leading-relaxed">{{ $product['desc'] }}</p>
-                    <div class="mt-4 flex items-center gap-1 text-forest-400 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div class="mt-4 flex items-center gap-1 {{ $product['accent'] }} text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
                         Подробнее
                         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" class="translate-x-0 group-hover:translate-x-1 transition-transform">
                             <path d="M5 12l6-6M11 6H5M11 6v6"/>
@@ -163,12 +163,13 @@
     {{-- Features Section --}}
     <section id="features" class="py-24 sm:py-32 relative">
         <div class="absolute inset-0">
-            <div class="absolute top-1/2 left-0 w-[500px] h-[500px] bg-forest-600/8 rounded-full blur-[120px]"></div>
+            <div class="absolute top-1/2 left-0 w-[500px] h-[500px] bg-brand-purple/5 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-0 right-0 w-[400px] h-[400px] bg-brand-gold/5 rounded-full blur-[100px]"></div>
         </div>
 
         <div class="relative max-w-7xl mx-auto px-6">
             <div class="text-center mb-16">
-                <span class="text-forest-400 text-sm font-semibold uppercase tracking-widest">Почему FORRIS</span>
+                <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">Почему FORRIS</span>
                 <h2 class="text-4xl sm:text-5xl font-bold text-white mt-3 tracking-tight">Преимущества платформы</h2>
             </div>
 
@@ -186,7 +187,7 @@
 
                 @foreach($features as $feature)
                 <div class="group p-6">
-                    <div class="w-12 h-12 rounded-xl bg-forest-500/10 border border-forest-500/20 flex items-center justify-center text-forest-400 mb-4 group-hover:bg-forest-500/20 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white mb-4 group-hover:bg-white/10 transition-colors">
                         <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                             <path d="{{ $feature['icon'] }}" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -203,13 +204,14 @@
     <section id="about" class="py-24 sm:py-32 relative">
         <div class="max-w-7xl mx-auto px-6">
             <div class="relative rounded-3xl overflow-hidden">
-                <div class="absolute inset-0 bg-gradient-to-br from-forest-900/80 via-dark-800 to-dark-900"></div>
-                <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(34,197,94,0.15),transparent_60%)]"></div>
+                <div class="absolute inset-0 bg-gradient-to-br from-dark-700 via-dark-800 to-dark-900"></div>
+                <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(212,168,83,0.1),transparent_50%)]"></div>
+                <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(139,92,246,0.08),transparent_50%)]"></div>
                 <div class="absolute inset-0 opacity-[0.04]" style="background-image: radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px); background-size: 24px 24px;"></div>
 
                 <div class="relative p-10 sm:p-16 lg:p-20">
                     <div class="max-w-3xl">
-                        <span class="text-forest-400 text-sm font-semibold uppercase tracking-widest">О компании</span>
+                        <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">О компании</span>
                         <h2 class="text-3xl sm:text-5xl font-bold text-white mt-3 tracking-tight leading-tight">
                             Мы создаём технологии,<br>которые вдохновляют
                         </h2>
@@ -238,7 +240,7 @@
     {{-- Contact Section --}}
     <section id="contact" class="py-24 sm:py-32 relative">
         <div class="max-w-3xl mx-auto px-6 text-center">
-            <span class="text-forest-400 text-sm font-semibold uppercase tracking-widest">Контакты</span>
+            <span class="text-brand-gold text-sm font-semibold uppercase tracking-widest">Контакты</span>
             <h2 class="text-4xl sm:text-5xl font-bold text-white mt-3 tracking-tight">Давайте начнём вместе</h2>
             <p class="text-gray-400 mt-4 max-w-xl mx-auto">
                 Оставьте заявку и наша команда свяжется с вами в ближайшее время
@@ -249,18 +251,18 @@
                 <div class="grid sm:grid-cols-2 gap-4">
                     <div>
                         <label class="block text-sm text-gray-400 mb-1.5">Имя</label>
-                        <input type="text" name="name" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-xl bg-dark-700 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-forest-500/50 focus:ring-1 focus:ring-forest-500/50 transition-colors">
+                        <input type="text" name="name" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-xl bg-dark-700 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 focus:ring-1 focus:ring-white/20 transition-colors">
                     </div>
                     <div>
                         <label class="block text-sm text-gray-400 mb-1.5">Email</label>
-                        <input type="email" name="email" placeholder="you@example.com" class="w-full px-4 py-3 rounded-xl bg-dark-700 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-forest-500/50 focus:ring-1 focus:ring-forest-500/50 transition-colors">
+                        <input type="email" name="email" placeholder="you@example.com" class="w-full px-4 py-3 rounded-xl bg-dark-700 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 focus:ring-1 focus:ring-white/20 transition-colors">
                     </div>
                 </div>
                 <div>
                     <label class="block text-sm text-gray-400 mb-1.5">Сообщение</label>
-                    <textarea name="message" rows="4" placeholder="Расскажите о вашем проекте..." class="w-full px-4 py-3 rounded-xl bg-dark-700 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-forest-500/50 focus:ring-1 focus:ring-forest-500/50 transition-colors resize-none"></textarea>
+                    <textarea name="message" rows="4" placeholder="Расскажите о вашем проекте..." class="w-full px-4 py-3 rounded-xl bg-dark-700 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 focus:ring-1 focus:ring-white/20 transition-colors resize-none"></textarea>
                 </div>
-                <button type="submit" class="w-full py-3.5 rounded-xl bg-forest-600 text-white font-semibold text-base hover:bg-forest-500 transition-all hover:shadow-[0_0_30px_rgba(34,197,94,0.3)] active:scale-[0.98] cursor-pointer">
+                <button type="submit" class="w-full py-3.5 rounded-xl bg-white text-dark-900 font-semibold text-base hover:bg-gray-200 transition-all hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] active:scale-[0.98] cursor-pointer">
                     Отправить заявку
                 </button>
             </form>
@@ -273,7 +275,7 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div>
                     <div class="flex items-center gap-2 mb-4">
-                        <div class="w-8 h-8 bg-gradient-to-br from-forest-400 to-forest-600 rounded-lg flex items-center justify-center">
+                        <div class="w-8 h-8 bg-gradient-to-br from-brand-gold to-amber-700 rounded-lg flex items-center justify-center">
                             <span class="text-white font-extrabold text-sm">F</span>
                         </div>
                         <span class="text-lg font-bold text-white">FORRIS</span>
